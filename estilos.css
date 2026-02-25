@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8e6f0;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    background: linear-gradient(pink, violet);
+    padding: 20px;
+}
+
+.frase {
+    font-style: italic;
+}
+
+.header h1 {
+    font-family: cursive;
+}
+
+.foto {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* CONTENEDOR */
+.contenedor {
+    display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 25%;
+    background-color: #d63384;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2, .sidebar h3 {
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+/* CONTENIDO */
+.contenido {
+    width: 75%;
+    padding: 20px;
+}
+
+/* TABLA */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background-color: pink;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* TARJETAS */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* EFECTO HOVER */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* TITULOS */
+.card h2 {
+    color: #d63384;
+    border-bottom: 2px solid pink;
+    padding-bottom: 5px;
+}
